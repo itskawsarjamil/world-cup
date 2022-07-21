@@ -256,3 +256,64 @@ a:hover {
     background-color: #0070f075;
     color: #FFFFFF;
 }
+
+
+/**********************
+    upcoming match
+**********************/
+
+.blogforupcomingmatch{
+    
+    padding: 53px 30px ;
+    border-radius: 10px;
+    border: 1px solid #E8E8E8;
+}
+.middleofblog{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    row-gap: 20px;
+    width: 252px;
+    height: 136.18px;
+}
+
+.versus-section {
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.blog-image-of-upcoming {
+    height: 56.18px;
+    width: 93.04px;
+}
+.versus-section h3{
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.blog-details-for-upcoming{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+.blog-details-for-upcoming h3{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.blog-details-for-upcoming p{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+}
